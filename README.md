@@ -224,12 +224,14 @@ A car-parking simulation game developed in Unity.
 
 ## 📚 Currently Learning
 
-* Spring Boot and Java backend development
-* Microservices architecture
-* Docker and containerized development
-* Retrieval-Augmented Generation
-* Vector databases and semantic search
-* Scalable AI application architecture
+Agentic AI: tool-calling agents, multi-agent workflows, and orchestration with LangChain and LangGraph
+LLM engineering: prompt design, fine-tuning, evaluation, guardrails, and self-hosted models
+RAG: advanced chunking, hybrid search, and re-ranking
+Vector databases and semantic search
+Voice AI: real-time speech pipelines, low-latency streaming, interruption handling, and voice agents with LiveKit and WebRTC
+Microservices: service communication, API gateways, event-driven design, and message queues
+System design: scalability, caching, load balancing, and distributed systems
+Docker and scalable AI application architecture, kept from before
 
 ---
 
