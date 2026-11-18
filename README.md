@@ -2,12 +2,12 @@
 
 # Hi, I'm Abdul Mateen 👋
 
-### Software Engineering Student | Full-Stack Developer | AI Application Developer
+### Software Engineer | Full-Stack Developer | AI Application Developer
 
-I build full-stack web applications, AI-powered platforms, REST APIs, authentication systems, dashboards, and mobile applications.
+I build full-stack web and mobile applications, AI-powered platforms, RAG systems, real-time voice AI, REST APIs, authentication systems, and multi-tenant SaaS products.
 
-[![GitHub](https://img.shields.io/badge/GitHub-abdulmateen825-181717?style=for-the-badge\&logo=github)](https://github.com/abdulmateen825)
-[![Email](https://img.shields.io/badge/Email-starmateen67%40gmail.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:starmateen67@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-abdulmateen825-181717?style=for-the-badge&logo=github)](https://github.com/abdulmateen825)
+[![Email](https://img.shields.io/badge/Email-starmateen67%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:starmateen67@gmail.com)
 
 </div>
 
@@ -15,13 +15,28 @@ I build full-stack web applications, AI-powered platforms, REST APIs, authentica
 
 ## 👨‍💻 About Me
 
-* 🎓 Software Engineering student at **COMSATS University Islamabad, Lahore Campus**
-* 💻 Full-stack developer working with **React, TypeScript, Node.js, Express.js, Java, Python, and FastAPI**
-* 🤖 Interested in **AI engineering, intelligent applications, RAG systems, and backend architecture**
-* 🔐 Experienced with **REST APIs, JWT authentication, protected routes, role-based access, and API integrations**
-* 🗄️ Working with **MongoDB, PostgreSQL, and MySQL**
+* 🎓 Software Engineering student at **COMSATS University Islamabad, Lahore Campus** (CGPA 3.37 / 4.00)
+* 💼 Software Engineering Intern at **Systems Limited** (Aug 2026 – Sep 2026)
+* 💻 Full-stack developer working with **React, React Native, Next.js, TypeScript, Node.js, Express.js, FastAPI, Python, and Java**
+* 🤖 Building **RAG pipelines, LLM integrations, and real-time voice AI** (LiveKit, WebRTC, Deepgram)
+* 🔐 Experienced with **REST APIs, JWT authentication, protected routes, role-based access, multi-tenant isolation, and API integrations**
+* 💳 Integrated **Stripe Checkout, Connect, and Webhooks** for marketplace payments and payouts
+* ⚙️ Working with **RabbitMQ, Celery, Redis, WebSockets, and asynchronous processing**
+* 🗄️ Databases: **PostgreSQL, MongoDB, MySQL, Redis, and Qdrant**
 * 🌱 Currently improving my knowledge of **Spring Boot, microservices, Docker, AI systems, and scalable application design**
-* 🎯 Open to **Software Engineering, Full-Stack, Backend, Frontend, and AI Engineering internships**
+* 🎯 Open to **Software Engineering, Full-Stack, Backend, Frontend, and AI Engineering** opportunities
+
+---
+
+## 💼 Experience
+
+### Systems Limited — Software Engineering Intern
+*Aug 2026 – Sep 2026*
+
+* Developed configurable AI interview workflows with automated answer evaluation and PDF reporting using **React** and **FastAPI**
+* Implemented **RAG** workflows with self-hosted **Ollama** models for rubric-based scoring, contextual learning chat, and interview question generation
+* Integrated token-authenticated REST APIs for question management, answer voting, and evaluation
+* Contributed to code reviews and root-cause debugging
 
 ---
 
@@ -36,30 +51,71 @@ I build full-stack web applications, AI-powered platforms, REST APIs, authentica
 ### Frontend and Mobile
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,vite,html,css,tailwind" alt="Frontend technologies" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,vite,html,css,tailwind,redux" alt="Frontend technologies" />
 </p>
 
 ### Backend and APIs
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,spring" alt="Backend technologies" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,spring,rabbitmq,redis" alt="Backend technologies" />
 </p>
 
 ### Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql" alt="Databases" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis" alt="Databases" />
 </p>
 
-### Tools and Platforms
+### AI / LLM and Realtime
+
+**RAG · Vector Search (Qdrant) · LangChain · Ollama · Groq · Gemini · Hugging Face · LiveKit · WebRTC · Deepgram · Silero VAD · Fish Audio**
+
+### DevOps, Tools and Platforms
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,vercel,vscode" alt="Development tools" />
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,aws,digitalocean,postman,vercel,vscode" alt="Development tools" />
 </p>
 
 ---
 
 ## 🚀 Featured Projects
+
+### 📖 Persona — AI-Powered Autobiography Platform
+
+*2025 – Present*
+
+A cross-platform AI autobiography platform that supports story editing, personalized book generation, real-time voice interviews, and an eBook and audiobook marketplace.
+
+**Highlights**
+
+* Cross-platform apps built with React, TypeScript, React Native, and Node.js
+* Isolated RAG personas using LangChain, Gemini, Groq, and persona-scoped Qdrant retrieval with owner-based authorization to prevent cross-user data leakage
+* Real-time AI voice interviews with LiveKit, WebRTC, Deepgram, and Silero VAD, supporting interruptions, resumable checkpoints, and transcript persistence
+* Asynchronous book, translation, and audiobook generation with RabbitMQ workers, decoupling long-running LLM tasks from API requests
+* Fish Audio voice cloning for multilingual audiobooks
+* eBook and audiobook marketplace with Stripe Checkout and Connect for payouts, commissions, refunds, and protected downloads
+
+**Technologies:** React, TypeScript, React Native, Node.js, MongoDB, Qdrant, RabbitMQ, LiveKit, Stripe, Fish Audio
+
+---
+
+### 🎧 OpenSupport — Self-Hosted AI Support Platform
+
+*2026*
+
+A multi-tenant, self-hosted AI customer-support platform with an embeddable chat widget, an agent dashboard, and human handoff.
+
+**Highlights**
+
+* Multi-tenant architecture with an embeddable React widget, Next.js agent dashboard, and role-based access
+* Asynchronous document and web ingestion using Celery with tenant-scoped Qdrant retrieval for grounded AI responses
+* Real-time agent messaging via WebSockets, PostgreSQL conversation storage, and Redis-backed rate limiting
+* TypeScript SDK, revocable API keys, and signed webhooks with automatic retries and delivery tracking
+* Catalog-grounded AI product recommendations, product previews, and customer-confirmed cart additions
+
+**Technologies:** Next.js, TypeScript, FastAPI, PostgreSQL, Redis, Celery, Qdrant, Docker
+
+---
 
 ### 🧠 [CodePuls.ai](https://github.com/abdulmateen825/codepuls.ai)
 
@@ -73,8 +129,7 @@ An AI-powered code intelligence and repository-analysis platform designed using 
 * Docker Compose development environment
 * Designed for code analysis and AI-assisted developer insights
 
-**Technologies:** Java, Python, AI Services, Docker, Full-Stack Architecture 
-
+**Technologies:** Java, Python, AI Services, Docker, Full-Stack Architecture
 
 ---
 
@@ -95,6 +150,22 @@ A cross-platform AI assistant built with Flutter and FastAPI that provides groun
 
 ---
 
+### ⚖️ [FairGig](https://github.com/sufyan2618/FairGig)
+
+A role-based frontend for a microservices-powered fair-work verification platform supporting workers, verifiers, advocates, and admins.
+
+**Highlights**
+
+* Role-specific workflows and dashboards with protected routes and authorization-sensitive actions
+* Grievance-management, certification, and review dashboards
+* Analytics interfaces
+* Integration with multiple REST microservices
+* Groq LLaMA multilingual assistant for text, voice interactions, and earnings guidance
+
+**Technologies:** React, TypeScript, Vite, Zustand, REST APIs, Microservices, Groq LLaMA
+
+---
+
 ### 🎬 [Video Sharing Platform](https://github.com/abdulmateen825/vedio-app)
 
 A full-stack video-sharing platform inspired by modern media applications.
@@ -110,23 +181,6 @@ A full-stack video-sharing platform inspired by modern media applications.
 * Watch-history tracking
 
 **Technologies:** React, Node.js, Express.js, MongoDB, Tailwind CSS, Cloudinary
-
----
-
-### ⚖️ [FairGig](https://github.com/sufyan2618/FairGig)
-
-A role-based frontend for a microservices-powered fair-work verification platform supporting workers, verifiers, and advocates.
-
-**Highlights**
-
-* Role-specific dashboards
-* Protected routes
-* Grievance-management workflows
-* Certification and review systems
-* Analytics interfaces
-* Integration with multiple REST microservices
-
-**Technologies:** React, TypeScript, Vite, Zustand, REST APIs, Microservices
 
 ---
 
@@ -192,4 +246,3 @@ A car-parking simulation game developed in Unity.
 ### Building practical software, learning continuously, and exploring the future of AI-powered applications.
 
 </div>
-
