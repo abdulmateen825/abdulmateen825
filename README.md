@@ -224,14 +224,23 @@ A car-parking simulation game developed in Unity.
 
 ## 📚 Currently Learning
 
-Agentic AI: tool-calling agents, multi-agent workflows, and orchestration with LangChain and LangGraph
-LLM engineering: prompt design, fine-tuning, evaluation, guardrails, and self-hosted models
-RAG: advanced chunking, hybrid search, and re-ranking
-Vector databases and semantic search
-Voice AI: real-time speech pipelines, low-latency streaming, interruption handling, and voice agents with LiveKit and WebRTC
-Microservices: service communication, API gateways, event-driven design, and message queues
-System design: scalability, caching, load balancing, and distributed systems
-Docker and scalable AI application architecture, kept from before
+- 🤖 **Agentic AI:** tool-calling agents, multi-agent workflows, and orchestration with LangChain and LangGraph
+
+- 🧠 **LLM Engineering:** prompt design, fine-tuning, evaluation, guardrails, and self-hosted models
+
+- 🔎 **Retrieval-Augmented Generation:** advanced chunking, hybrid search, and re-ranking
+
+- 🗂️ **Vector Databases and Semantic Search**
+
+- 🎙️ **Voice AI:** real-time speech pipelines, low-latency streaming, interruption handling, and voice agents with LiveKit and WebRTC
+
+- 🧩 **Microservices Architecture:** service communication, API gateways, event-driven design, and message queues
+
+- 🏗️ **System Design:** scalability, caching, load balancing, and distributed systems
+
+- 🐳 **Docker and Containerized Development**
+
+- 📈 **Scalable AI Application Architecture**
 
 ---
 
