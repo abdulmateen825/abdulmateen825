@@ -204,7 +204,7 @@ A car-parking simulation game developed in Unity.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=abdulmateen825&show_icons=true&hide_border=true&count_private=true" alt="Abdul Mateen's GitHub statistics" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=abdulmateen825&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="Abdul Mateen's GitHub statistics" />
 
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulmateen825&layout=compact&hide_border=true" alt="Most-used languages" />
 
